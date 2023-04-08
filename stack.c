@@ -36,7 +36,7 @@ int main()
     char_stack_push(&v1, '$');
     char_stack_push(&v1, '0');
     printf("Stack Size is: %lu \n", char_stack_size(&v1));
-    printf("%c was popped\n", char_stack_top(&v1));
+    printf("%c was popped\n", char_stack_pop(&v1));
     printf("Stack Size is: %lu \n", char_stack_size(&v1));
     printf("Element at index 1 is: %c \n", char_stack_get(&v1, 1));
     printf("Stack top: %c \n", char_stack_top(&v1));
