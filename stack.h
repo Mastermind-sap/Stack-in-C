@@ -69,6 +69,7 @@
         }                                                    \
         T x = T##_stack_get(vec, vec->top);                  \
         vec->top--;                                          \
+        vec->size--;                                         \
         return x;                                            \
     }
 
